@@ -1,0 +1,137 @@
+ .hh-100 {
+
+
+    min-height: 100vh;
+
+
+ }
+
+ .hh-130{
+
+   min-height: 130vh;
+ }
+
+
+ .fondo{
+
+   background-color:  #eeeaf4 !important;
+   
+ }
+
+ .Bloque1{
+
+   background-color: #7165b2 !important;
+
+ }
+ .Bloque2{
+
+   background-color: #bea4d2 !important;
+
+}
+
+.t-morado{
+
+  color: #bea4d2 !important;
+
+}
+.Bloque3{
+
+   background-color: #958fcc !important;
+
+}
+.Bloque4{
+
+   background-color: #a4a1e5 !important;
+
+}
+.Bloque5{
+   background-color: #bea4d2 !important;
+
+
+}
+
+
+.textoC{
+color: #1a1a1a !important;
+   
+}
+
+
+.textoO{
+
+color:  #ffffff !important;
+
+}
+
+.h-40{
+
+   height: 40vh!important;
+
+}
+
+.Poppins{
+   font-family: 'Poppins', sans-serif;
+}
+
+.Roboto{
+
+   font-family: 'Roboto', sans-serif;
+
+}
+
+.borderb{
+
+   border-bottom: 1px solid white;
+}
+
+.border{
+
+   border: 2px solid black!important;
+}
+
+.unlist{
+
+   text-decoration: none;
+   list-style:none;
+
+}
+
+@media (min-width:768px) and (max-width:980px){
+
+   .logo{
+
+      width: 175px;
+
+   }
+
+   .ml-5{
+
+      margin-left: 0rem!important;
+
+   }
+
+
+}
+
+
+@media (max-width:767px){
+
+   .hh-130{
+
+      min-height: 120vh;
+    }
+
+
+}
+
+.h-card{
+
+height: 30vh;
+
+}
+
+.btn-morado{
+
+   border-radius: 30px;
+
+}

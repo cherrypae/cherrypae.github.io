@@ -1,51 +1,84 @@
- .hh-100 {
+.hh-100 {
 
 
-    min-height: 100vh;
+   min-height: 100vh;
 
 
- }
+}
 
- .hh-130{
-
-   min-height: 130vh;
- }
+.hh-50 {
 
 
- .fondo{
+  min-height: 80vh;
 
-   background-color:  #eeeaf4 !important;
-   
- }
 
- .Bloque1{
+}
 
-   background-color: #7165b2 !important;
+.hh-130{
 
- }
- .Bloque2{
+  min-height: 130vh;
+}
 
-   background-color: #bea4d2 !important;
+.hh-300{
+
+  min-height: 300vh;
+}
+
+
+.fondo{
+
+  background-color:  #eeeaf4 !important;
+  
+}
+
+.Bloque1{
+
+  background-color: #7165b2 !important;
+
+}
+.Bloque2{
+
+  background-color: #bea4d2 !important;
 
 }
 
 .t-morado{
 
-  color: #bea4d2 !important;
+ color: #bea4d2 !important;
 
+ 
 }
+
+.t-moradoO{
+
+  color: #7165b2 !important;
+} 
 .Bloque3{
 
-   background-color: #958fcc !important;
+  background-color: #958fcc !important;
 
 }
 .Bloque4{
 
-   background-color: #a4a1e5 !important;
+  background-color: #b4ade0 !important;
 
 }
 .Bloque5{
-   background-color: #bea4d2 !important;
+  background-color: #bea4d2 !important;
+
+
+}
+.bor-w{
+  width:250px;
+  border-bottom: 2px solid white;
+
+
+}
+
+.bor-t{
+  margin-top:200px;
+  width:250px;
+  border-top: 2px solid white;
 
 
 }
@@ -53,7 +86,7 @@
 
 .textoC{
 color: #1a1a1a !important;
-   
+  
 }
 
 
@@ -65,50 +98,50 @@ color:  #ffffff !important;
 
 .h-40{
 
-   height: 40vh!important;
+  height: 40vh!important;
 
 }
 
 .Poppins{
-   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Roboto{
 
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
 .borderb{
 
-   border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .border{
 
-   border: 2px solid black!important;
+  border: 2px solid black!important;
 }
 
 .unlist{
 
-   text-decoration: none;
-   list-style:none;
+  text-decoration: none;
+  list-style:none;
 
 }
 
 @media (min-width:768px) and (max-width:980px){
 
-   .logo{
+  .logo{
 
-      width: 175px;
+     width: 175px;
 
-   }
+  }
 
-   .ml-5{
+  .ml-5{
 
-      margin-left: 0rem!important;
+     margin-left: 0rem!important;
 
-   }
+  }
 
 
 }
@@ -116,10 +149,10 @@ color:  #ffffff !important;
 
 @media (max-width:767px){
 
-   .hh-130{
+  .hh-130{
 
-      min-height: 120vh;
-    }
+     min-height: 120vh;
+   }
 
 
 }
@@ -132,6 +165,165 @@ height: 30vh;
 
 .btn-morado{
 
-   border-radius: 30px;
+  border-radius: 30px;
+
+}
+.wh-100{
+
+  width: 100vh;
+
+}
+
+.actives{
+color: #7165b2!important;
+margin-left: 30px;
+transition: 1s;
+}
+
+
+
+.display-4 {
+    font-size: calc(1em + 4vw);
+}
+
+.dis {
+  font-size: calc(1em + 3vw);
+}
+
+.ebook{
+
+  background-image: url("../img/ebook/eb1.png");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.b-trans{
+  
+  border-radius: 30px;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  background-color: transparent;
+  transition: 500ms;
+
+}
+
+
+.b-trans:hover{
+
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  background-color: white;
+  transition: 500ms;
+
+}
+
+.x{
+
+width: 70%;
+
+}
+
+.reds{
+
+  color: white;
+  transition: 500ms;
+
+}
+
+.reds:hover{
+
+ opacity: 0.5;
+  transition: 500ms;
+
+}
+
+
+
+.btv{
+
+  color: #1a1a1a;
+  transition: 500ms;
+}
+
+
+
+.btv:hover{
+
+  color: #7165b2;
+  transition: 500ms;
+}
+
+.sdl1{
+
+background-image: url("../img/sld1.png");
+height:50vh;
+}
+
+.sdl2{
+
+  background-image: url("../img/sld2.png");
+
+  height:50vh;
+}
+
+
+
+.hv-25{
+
+height:40vh
+
+}
+
+.h{
+
+  height:300px
+
+}
+
+.video{
+
+  width:640px;
+  height:480px;
+}
+
+
+@media (max-width:700px){
+
+  .video{
+
+    width:320px;
+    height:240px;
+
+  }
+  
+.ebook{
+  margin: 0;
+}
+.h{
+  height:30px
+}
+
+
+.bor-t{
+  margin-top:50px;
+  width:250px;
+  border-top: 2px solid white;
+
+
+}
+
+
+
+
+}
+
+
+
+
+.footer{
+background-color:#3c3c3c;
+color:#ffffff;
+height:5vh;
 
 }
